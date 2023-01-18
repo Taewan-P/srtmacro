@@ -207,7 +207,7 @@ if (document.URL.substring(0, dsturl1.length) == dsturl1) {
 				} else {
 					setTimeout(function() {
 					location.reload();
-					}, 1000);
+					}, 900);
 				}
 			} else {
 				history.go(-1);
